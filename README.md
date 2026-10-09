@@ -58,19 +58,19 @@ Run scripts from the repository root so that their relative `src/`, `models/`, a
 ### SIR example
 
 ```r
-source("sir_tworounds_clean_with_plots_v2.R")
+source("sir_run.R")
 ```
 
 ### Stochastic Lotka--Volterra example
 
 ```r
-source("stochastic_lotka_volterra_smfsb_tworounds_clean.R")
+source("lotka_volterra_run.R")
 ```
 
 ### ST131 epidemiological application
 
 ```r
-source("ecoli_st131_tworounds_scaledDt_clean.R")
+source("ecoli_st131_scaledDt.R")
 ```
 
 For the ST131 application, set the clade near the top of the script:
@@ -152,7 +152,7 @@ settings.json
 
 as well as localized-SBC results and posterior/posterior-predictive figures.
 
-The clipped posterior draws are the primary RatioIS posterior sample used in the reported comparisons and posterior predictive checks.
+The clipped posterior draws are the primary ratioIS posterior sample used in the reported comparisons and posterior predictive checks.
 
 ## Reproducibility
 
@@ -162,7 +162,7 @@ Because the examples contain stochastic simulation, exact reproduction requires 
 
 ## Data for the ST131 application
 
-The ST131 script uses
+The ST131 script uses data from Ojala et al 2025 https://doi.org/10.1038/s41467-025-65301-1 available at https://github.com/fanoja/Ecoli-R0
 
 ```text
 models/ecoli_st131/data/NORM_incidence_updated.csv
