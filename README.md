@@ -4,7 +4,7 @@ This repository contains the R code accompanying
 
 > **U. Picchini** (2026). [*Amortized ratio-estimation importance sampling and localized simulation-based calibration for intractable likelihoods*](https://arxiv.org/abs/2609.39712), arXiv:2609.39712.
 
-The code implements the methodology studied in the paper: surrogate-based importance sampling corrected by amortized likelihood-ratio estimation (RatioIS), together with localized simulation-based calibration (SBC). It also contains the simulation models and scripts used for the numerical examples and applications.
+The code implements the methodology studied in the paper: surrogate-based importance sampling corrected by amortized likelihood-ratio estimation (ratioIS), together with localized simulation-based calibration (SBC). It also contains the simulation models and scripts used for the numerical examples and applications.
 
 ## Repository contents
 
@@ -39,7 +39,7 @@ The three main run scripts correspond to:
 - a stochastic Lotka--Volterra example;
 - the ST131 epidemiological application.
 
-The `results/` directory is created by the run scripts and stores fitted surrogate objects, RatioIS output, posterior draws, diagnostics, localized-SBC output, and figures.
+The `results/` directory is created by the run scripts and stores fitted surrogate objects, ratioIS output, posterior draws, diagnostics, localized-SBC output, and figures.
 
 ## Main workflow
 
