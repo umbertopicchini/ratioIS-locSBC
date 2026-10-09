@@ -162,7 +162,7 @@ Because the examples contain stochastic simulation, exact reproduction requires 
 
 ## Data for the ST131 application
 
-The ST131 script uses data from Ojala et al 2025 https://doi.org/10.1038/s41467-025-65301-1 available at https://github.com/fanoja/Ecoli-R0
+The ST131 script uses data from [Ojala et al 2025](https://doi.org/10.1038/s41467-025-65301-1) available at https://github.com/fanoja/Ecoli-R0
 
 ```text
 models/ecoli_st131/data/NORM_incidence_updated.csv
