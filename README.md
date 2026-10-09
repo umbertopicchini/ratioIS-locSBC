@@ -33,15 +33,11 @@ The run scripts keep the settings that are useful to vary between experiments ex
 ## Software requirements
 
 The code is written in R.
-
-The user should install the `xLLiM` package via 
+Results in the paper used version 2.3 of the development version of the \texttt{xLLiM} R package `xLLiM` package via 
 ```r
 devtools::install_github("epertham/xLLiM",
-  ref = "dba703acda2955c9462c0afab8b2b9e6ce45827f"
-)
+  ref = "dba703acda2955c9462c0afab8b2b9e6ce45827f")
 ```
-The paper used version 2.3.3 of `xLLiM`.
-
 The examples use the following packages:
 
 ```r
@@ -57,9 +53,7 @@ install.packages(c(
 ))
 ```
 
-The Lotka--Volterra example additionally requires `smfsb`, and the surrogate fitting code requires `xLLiM`.
-
-Please install these packages separately if they are not already available in your R installation.
+The Lotka--Volterra example additionally requires `smfsb`.
 
 ## Running the examples
 
