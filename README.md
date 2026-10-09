@@ -4,7 +4,7 @@ This repository contains the R code accompanying
 
 > **U. Picchini** (2026). [*Amortized ratio-estimation importance sampling and localized simulation-based calibration for intractable likelihoods*](https://arxiv.org/abs/2609.39712), arXiv:2609.39712.
 
-The code implements the methodology studied in the paper: approximate Bayesian inference is obtained by fitting mixtures of experts representing surrogates of the likelihood and the posterior, and draws from the surrogate posterior are corrected using importance sampling procedure incorporating amortized likelihood-ratio estimation (ratioIS). The codes also implements "localized simulation-based calibration" (SBC). It also contains the simulation models and scripts used for the numerical examples and applications.
+The code implements the methodology studied in the paper: approximate Bayesian inference is obtained by fitting mixtures of experts representing surrogates of the likelihood and the posterior, and draws from the surrogate posterior are corrected using an importance sampling procedure incorporating amortized likelihood-ratio estimation (ratioIS). The codes also implements "localized simulation-based calibration" (SBC). It also contains the simulation models and scripts used for the numerical examples and applications.
 
 ## Repository contents
 
