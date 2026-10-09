@@ -38,6 +38,8 @@ Results in the paper used version 2.3 of the development version of the R packag
 devtools::install_github("epertham/xLLiM",
   ref = "dba703acda2955c9462c0afab8b2b9e6ce45827f")
 ```
+However, to fit mixtures of experts via Expectation-Maximization we used a modification of the original `gllim` function from `xLLiM`: the edited `gllim` function was renamed `gllim_strict_em` and the only difference is the different stopping criterion for the algorithm convergence. This is explained in the paper's Supplementary Material and in lines 572-583 of `gllim_strict_em`.
+
 The examples use the following packages:
 
 ```r
