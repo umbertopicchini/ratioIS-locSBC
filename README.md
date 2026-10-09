@@ -14,7 +14,7 @@ The three main run scripts correspond to:
 - a stochastic Lotka--Volterra example;
 - the ST131 epidemiological application.
 
-The `results/` directory is created by the run scripts and stores fitted surrogate objects, ratioIS output, posterior draws, diagnostics, localized-SBC output, and figures.
+The `results/` directory is created by the run scripts and stores fitted surrogate objects, ratioIS output, posterior draws, diagnostics, localized-SBC output, and some figures. All figures can be obtained by running parts of the scripts.
 
 ## Main workflow
 
