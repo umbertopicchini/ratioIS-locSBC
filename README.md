@@ -33,7 +33,7 @@ The run scripts keep the settings that are useful to vary between experiments ex
 ## Software requirements
 
 The code is written in R.
-Results in the paper used version 2.3 of the development version of the \texttt{xLLiM} R package `xLLiM` package via 
+Results in the paper used version 2.3 of the development version of the R package `xLLiM` package via 
 ```r
 devtools::install_github("epertham/xLLiM",
   ref = "dba703acda2955c9462c0afab8b2b9e6ce45827f")
