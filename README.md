@@ -8,31 +8,6 @@ The code implements the methodology studied in the paper: surrogate-based import
 
 ## Repository contents
 
-A suggested repository layout is
-
-```text
-.
-├── src/
-│   ├── build_surrogates_v14_two_round_prior_defensive.R
-│   ├── ratio_estimation_v10.R
-│   ├── local_sbc_corrected_posterior_v2.R
-│   └── gllim_strict_em.R
-├── models/
-│   ├── sir/
-│   │   └── sir_model.R
-│   ├── lotka_volterra_smfsb/
-│   │   └── lotka_volterra_smfsb_model.R
-│   └── ecoli_st131/
-│       ├── ecoli_st131_model.R
-│       └── data/
-│           ├── NORM_incidence_updated.csv
-│           └── ST131_clades_OR_E_coli_carriage_disease_collapsed_wBSAC2.xlsx
-├── sir_tworounds_clean_with_plots_v2.R
-├── stochastic_lotka_volterra_smfsb_tworounds_clean.R
-├── ecoli_st131_tworounds_scaledDt_clean.R
-└── results/
-```
-
 The three main run scripts correspond to:
 
 - a stochastic SIR example;
