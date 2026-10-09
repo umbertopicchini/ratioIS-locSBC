@@ -32,7 +32,12 @@ The run scripts keep the settings that are useful to vary between experiments ex
 
 ## Software requirements
 
-The code is written in R. The examples use the following packages:
+The code is written in R.
+
+The user should install the `xLLiM` package via devtools::install\_github("epertham/xLLiM", ref = "master")
+The paper used version 2.3.3 of `xLLiM`.
+
+The examples use the following packages:
 
 ```r
 install.packages(c(
