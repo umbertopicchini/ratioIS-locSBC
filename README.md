@@ -36,7 +36,9 @@ The code is written in R.
 
 The user should install the `xLLiM` package via 
 ```r
-devtools::install_github("epertham/xLLiM", ref = "master")
+devtools::install_github("epertham/xLLiM",
+  ref = "dba703acda2955c9462c0afab8b2b9e6ce45827f"
+)
 ```
 The paper used version 2.3.3 of `xLLiM`.
 
