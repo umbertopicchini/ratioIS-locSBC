@@ -128,11 +128,13 @@ where `M` is the number of final importance samples.
 
 The cleaned scripts retain the simulation budgets used for the reported experiments:
 
-| Example | Initial prior-predictive | Focused round | Refreshed round | Final IS draws |
+| Example | Initial prior-predictive (N_0) | Focused round (N_a) | Refreshed round (N_b) | Final IS draws |
 |---|---:|---:|---:|---:|
 | SIR | 20,000 | 20,000 | 10,000 | 10,000 |
 | Lotka--Volterra | 20,000 | 20,000 | 10,000 | 10,000 |
 | ST131 | 50,000 | 30,000 | 20,000 | 10,000 |
+
+To approximate the posterior, the number of calls of the generative-model  is N_0+N_a+N_b, that is the final IS draws do not need to produce model simulations.
 
 Localized SBC uses the inflation factors
 
