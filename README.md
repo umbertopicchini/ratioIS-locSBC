@@ -170,7 +170,7 @@ Because the examples contain stochastic simulation, exact reproduction requires 
 
 ## Data for the SIR study
 
-The sir/models folder contains observations data taken from the [sbibm project](https://github.com/sbi-benchmark/sbibm) 
+The ``models/sir``` folder contains observations data taken from the [sbibm project](https://github.com/sbi-benchmark/sbibm) 
 
 ## Data for the ST131 application
 
