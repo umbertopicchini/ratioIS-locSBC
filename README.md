@@ -72,7 +72,7 @@ source("sir_run.R")
 ```r
 source("lotka_volterra_run.R")
 ```
-Reference posterior samples from particle MCMC are in the ```results/lotka_volterra_smfsb/PMCMC``` folder, specifically in the ```pmmc_lvnoise10_fixed_sd10``` file. The reference file can be created by running ```run_pmcmc_fixed_error_variance``` found in the same folder.
+Reference posterior samples from particle MCMC are in the ```results/lotka_volterra_smfsb/PMCMC``` folder, specifically in the ```pmmc_lvnoise10_fixed_sd10.rds``` file. Reference posterior samples were created by running ```run_pmcmc_fixed_error_variance.R``` found in the same folder.
 
 ### ST131 epidemiological application
 
