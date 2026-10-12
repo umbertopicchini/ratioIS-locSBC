@@ -9,6 +9,8 @@
 #
 # Original source:
 #   https://github.com/epertham/xLLiM
+#   Version: 2.3
+#   Commit: dba703acda2955c9462c0afab8b2b9e6ce45827f
 #
 # Modifications:
 #   Umberto Picchini modified the EM stopping criterion, see lines 590-601
