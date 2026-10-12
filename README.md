@@ -6,6 +6,10 @@ This repository contains the R code accompanying
 
 The code implements the methodology studied in the paper: approximate Bayesian inference is obtained by fitting mixtures of experts representing surrogates of the likelihood and the posterior, and draws from the surrogate posterior are corrected using an importance sampling procedure incorporating a locally amortized likelihood-ratio estimation (ratioIS). The codes also implements "localized simulation-based calibration" (SBC). It also contains the simulation models and scripts used for the numerical examples and applications.
 
+## License
+
+Original code developed for this project is released under the MIT License. The modified gllim_strict_em implementation is derived from the ```xLLiM``` R package and is distributed under the GNU GPL-2-or-later license. Third-party packages and software retain their respective licenses.
+
 ## Repository contents
 
 The three main run scripts correspond to:
