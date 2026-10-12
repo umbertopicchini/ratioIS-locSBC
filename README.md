@@ -8,7 +8,7 @@ The code implements the methodology studied in the paper: approximate Bayesian i
 
 ## License
 
-Original code developed for this project is released under the MIT License. The modified gllim_strict_em implementation is derived from the ```xLLiM``` R package and is distributed under the GNU GPL-2-or-later license. Third-party packages and software retain their respective licenses.
+Original code developed for this project is released under the MIT License. The modified ```gllim_strict_em.R``` implementation is derived from the ```xLLiM``` R package and is distributed under the GNU GPL-2-or-later license. Third-party packages and software retain their respective licenses.
 
 ## Repository contents
 
