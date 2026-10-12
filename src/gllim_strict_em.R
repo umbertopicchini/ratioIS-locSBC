@@ -1,3 +1,21 @@
+# This file is a modified version of the gllim() function from the
+# xLLiM R package.
+#
+# Original package:
+#   xLLiM: High Dimensional Locally-Linear Mapping
+#   Authors: Emeline Perthame, Florence Forbes, Antoine Deleforge,
+#            Emilie Devijver, Melina Gallopin
+#   License: GNU General Public License (GPL) version 2 or later
+#
+# Original source:
+#   https://github.com/epertham/xLLiM
+#
+# Modifications:
+#   Umberto Picchini modified the EM stopping criterion, see lines 590-601
+#
+# This modified version is distributed under the same GPL-2-or-later
+# license.
+
 loggausspdf <- getFromNamespace("loggausspdf", "xLLiM")
 logsumexp   <- getFromNamespace("logsumexp", "xLLiM")
 ginv <- MASS::ginv
