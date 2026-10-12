@@ -168,6 +168,10 @@ Random-number seeds are set explicitly in the run scripts. The localized-SBC cod
 
 Because the examples contain stochastic simulation, exact reproduction requires using the same code version, data files, package versions, seeds, and simulation settings.
 
+## Data for the SIR study
+
+The sir/models folder contains observations data taken from the [sbibm project](https://github.com/sbi-benchmark/sbibm) 
+
 ## Data for the ST131 application
 
 The ST131 script uses data from [Ojala et al 2025](https://doi.org/10.1038/s41467-025-65301-1) available at https://github.com/fanoja/Ecoli-R0
